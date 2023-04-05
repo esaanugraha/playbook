@@ -1,7 +1,7 @@
 - hosts: manager
   vars:
     apps: apps-esa
-  taks:
+  tasks:
     - name: install python-docker di ubuntu
       apt:
         name: "{{ item }}"
